@@ -1,0 +1,21 @@
+{
+    "llm_type": "siliconflow",
+    "openai": {
+        "api_key": "",
+        "api_base": "https://api.openai.com/v1",
+        "embedding_model": "text-embedding-3-small",
+        "completion_model": "gpt-3.5-turbo"
+    },
+    "huggingface": {
+        "api_key": "",
+        "api_base": "https://api-inference.huggingface.co/models",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+    },
+    "siliconflow": {
+        "api_key": "your_api_key",
+        "embedding_api_base": "https://api.siliconflow.cn/v1/embeddings",
+        "completion_api_base": "https://api.siliconflow.cn/v1/chat/completions",
+        "embedding_model": "BAAI/bge-large-zh-v1.5",
+        "completion_model": "Qwen/QwQ-32B"
+    }
+}
